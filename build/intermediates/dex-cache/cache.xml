@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\PdPlayer\androidMidi\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7709ab9174abcb1202d073f1b66fea531532e697">
+        <dex dex="D:\AndroidStudioProjects\PdPlayer\pdPlayer\build\intermediates\pre-dexed\release\classes_f31b1f2cf050cd40dee64255508ab6885730cb8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\PdPlayer\pdCore\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="03976817420bd3a0e37a47fe9dcf418acad1a39d">
+        <dex dex="D:\AndroidStudioProjects\PdPlayer\pdPlayer\build\intermediates\pre-dexed\release\classes_880bb374cab8b7892f5f17aba6fa95348ac4fd43.jar" />
+    </item>
+
+</items>

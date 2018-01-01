@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PdPlayer.iml" filepath="$PROJECT_DIR$/PdPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidMidi/androidMidi.iml" filepath="$PROJECT_DIR$/androidMidi/androidMidi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdCore/pdCore.iml" filepath="$PROJECT_DIR$/pdCore/pdCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdPlayer/pdPlayer.iml" filepath="$PROJECT_DIR$/pdPlayer/pdPlayer.iml" />
+    </modules>
+  </component>
+</project>

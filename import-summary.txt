@@ -1,0 +1,482 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndroidMidi:
+* .gitignore
+* .gradle\
+* .gradle\3.3\
+* .gradle\3.3\taskArtifacts\
+* .gradle\3.3\taskArtifacts\fileHashes.bin
+* .gradle\3.3\taskArtifacts\fileSnapshots.bin
+* .gradle\3.3\taskArtifacts\taskArtifacts.bin
+* .gradle\3.3\taskArtifacts\taskArtifacts.lock
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\gradle.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\runConfigurations.xml
+* .idea\workspace.xml
+* AndroidMidi.iml
+* LICENSE-2.0.txt
+* build.gradle
+* build.xml
+* build\
+* build\android-profile\
+* build\android-profile\profile-2017-10-28-12-07-22-794.rawproto
+* build\android-profile\profile-2017-10-28-12-07-26-117.rawproto
+* build\generated\
+* build\generated\mockable-android-23.jar
+* build\generated\source\
+* build\generated\source\buildConfig\
+* build\generated\source\buildConfig\androidTest\
+* build\generated\source\buildConfig\androidTest\debug\
+* build\generated\source\buildConfig\androidTest\debug\com\
+* build\generated\source\buildConfig\androidTest\debug\com\noisepages\
+* build\generated\source\buildConfig\androidTest\debug\com\noisepages\nettoyeur\
+* build\generated\source\buildConfig\androidTest\debug\com\noisepages\nettoyeur\midi\
+* build\generated\source\buildConfig\androidTest\debug\com\noisepages\nettoyeur\midi\test\
+* build\generated\source\buildConfig\androidTest\debug\com\noisepages\nettoyeur\midi\test\BuildConfig.java
+* build\generated\source\buildConfig\debug\
+* build\generated\source\buildConfig\debug\com\
+* build\generated\source\buildConfig\debug\com\noisepages\
+* build\generated\source\buildConfig\debug\com\noisepages\nettoyeur\
+* build\generated\source\buildConfig\debug\com\noisepages\nettoyeur\midi\
+* build\generated\source\buildConfig\debug\com\noisepages\nettoyeur\midi\BuildConfig.java
+* build\generated\source\r\
+* build\generated\source\r\androidTest\
+* build\generated\source\r\androidTest\debug\
+* build\generated\source\r\androidTest\debug\com\
+* build\generated\source\r\androidTest\debug\com\noisepages\
+* build\generated\source\r\androidTest\debug\com\noisepages\nettoyeur\
+* build\generated\source\r\androidTest\debug\com\noisepages\nettoyeur\midi\
+* build\generated\source\r\androidTest\debug\com\noisepages\nettoyeur\midi\R.java
+* build\generated\source\r\androidTest\debug\com\noisepages\nettoyeur\midi\test\
+* build\generated\source\r\androidTest\debug\com\noisepages\nettoyeur\midi\test\R.java
+* build\generated\source\r\debug\
+* build\generated\source\r\debug\com\
+* build\generated\source\r\debug\com\noisepages\
+* build\generated\source\r\debug\com\noisepages\nettoyeur\
+* build\generated\source\r\debug\com\noisepages\nettoyeur\midi\
+* build\generated\source\r\debug\com\noisepages\nettoyeur\midi\R.java
+* build\intermediates\
+* build\intermediates\blame\
+* build\intermediates\blame\res\
+* build\intermediates\blame\res\androidTest\
+* build\intermediates\blame\res\androidTest\debug\
+* build\intermediates\blame\res\androidTest\debug\multi\
+* build\intermediates\blame\res\androidTest\debug\multi\values.json
+* build\intermediates\blame\res\androidTest\debug\single\
+* build\intermediates\blame\res\androidTest\debug\single\drawable.json
+* build\intermediates\blame\res\androidTest\debug\single\layout.json
+* build\intermediates\bundles\
+* build\intermediates\bundles\debug\
+* build\intermediates\bundles\debug\AndroidManifest.xml
+* build\intermediates\bundles\debug\R.txt
+* build\intermediates\bundles\debug\res\
+* build\intermediates\bundles\debug\res\drawable\
+* build\intermediates\bundles\debug\res\drawable\din5.png
+* build\intermediates\bundles\debug\res\layout\
+* build\intermediates\bundles\debug\res\layout\device_list.xml
+* build\intermediates\bundles\debug\res\layout\device_name.xml
+* build\intermediates\bundles\debug\res\values\
+* build\intermediates\bundles\debug\res\values\values.xml
+* build\intermediates\incremental\
+* build\intermediates\incremental\compileDebugAidl\
+* build\intermediates\incremental\compileDebugAidl\dependency.store
+* build\intermediates\incremental\compileDebugAndroidTestAidl\
+* build\intermediates\incremental\compileDebugAndroidTestAidl\dependency.store
+* build\intermediates\incremental\mergeDebugAndroidTestResources\
+* build\intermediates\incremental\mergeDebugAndroidTestResources\compile-file-map.properties
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merged.dir\
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merged.dir\values\
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merged.dir\values\values.xml
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merger.xml
+* build\intermediates\incremental\mergeDebugAssets\
+* build\intermediates\incremental\mergeDebugAssets\merger.xml
+* build\intermediates\incremental\mergeDebugShaders\
+* build\intermediates\incremental\mergeDebugShaders\merger.xml
+* build\intermediates\incremental\packageDebugResources\
+* build\intermediates\incremental\packageDebugResources\compile-file-map.properties
+* build\intermediates\incremental\packageDebugResources\merged.dir\
+* build\intermediates\incremental\packageDebugResources\merged.dir\values\
+* build\intermediates\incremental\packageDebugResources\merged.dir\values\values.xml
+* build\intermediates\incremental\packageDebugResources\merger.xml
+* build\intermediates\manifest\
+* build\intermediates\manifest\androidTest\
+* build\intermediates\manifest\androidTest\debug\
+* build\intermediates\manifest\androidTest\debug\AndroidManifest.xml
+* build\intermediates\manifests\
+* build\intermediates\manifests\aapt\
+* build\intermediates\manifests\aapt\debug\
+* build\intermediates\manifests\aapt\debug\AndroidManifest.xml
+* build\intermediates\res\
+* build\intermediates\res\merged\
+* build\intermediates\res\merged\androidTest\
+* build\intermediates\res\merged\androidTest\debug\
+* build\intermediates\res\merged\androidTest\debug\drawable\
+* build\intermediates\res\merged\androidTest\debug\drawable\din5.png
+* build\intermediates\res\merged\androidTest\debug\layout\
+* build\intermediates\res\merged\androidTest\debug\layout\device_list.xml
+* build\intermediates\res\merged\androidTest\debug\layout\device_name.xml
+* build\intermediates\res\merged\androidTest\debug\values\
+* build\intermediates\res\merged\androidTest\debug\values\values.xml
+* build\intermediates\res\resources-debug-androidTest.ap_
+* build\intermediates\symbols\
+* build\intermediates\symbols\androidTest\
+* build\intermediates\symbols\androidTest\debug\
+* build\intermediates\symbols\androidTest\debug\R.txt
+* build\outputs\
+* build\outputs\aar\
+* build\outputs\aar\AndroidMidi-debug.aar
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+From PdCore:
+* .gitignore
+* .gradle\
+* .gradle\3.3\
+* .gradle\3.3\taskArtifacts\
+* .gradle\3.3\taskArtifacts\fileHashes.bin
+* .gradle\3.3\taskArtifacts\fileSnapshots.bin
+* .gradle\3.3\taskArtifacts\taskArtifacts.bin
+* .gradle\3.3\taskArtifacts\taskArtifacts.lock
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\gradle.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\runConfigurations.xml
+* .idea\workspace.xml
+* LICENSE.txt
+* Makefile
+* PdCore.iml
+* README.txt
+* ant.properties
+* build.gradle
+* build.xml
+* build\
+* build\android-profile\
+* build\android-profile\profile-2017-10-28-12-03-37-467.rawproto
+* build\android-profile\profile-2017-10-28-12-03-38-358.rawproto
+* build\android-profile\profile-2017-10-28-12-08-00-981.rawproto
+* build\android-profile\profile-2017-10-28-12-08-01-593.rawproto
+* build\generated\
+* build\generated\mockable-android-23.jar
+* build\generated\source\
+* build\generated\source\buildConfig\
+* build\generated\source\buildConfig\androidTest\
+* build\generated\source\buildConfig\androidTest\debug\
+* build\generated\source\buildConfig\androidTest\debug\org\
+* build\generated\source\buildConfig\androidTest\debug\org\puredata\
+* build\generated\source\buildConfig\androidTest\debug\org\puredata\android\
+* build\generated\source\buildConfig\androidTest\debug\org\puredata\android\service\
+* build\generated\source\buildConfig\androidTest\debug\org\puredata\android\service\test\
+* build\generated\source\buildConfig\androidTest\debug\org\puredata\android\service\test\BuildConfig.java
+* build\generated\source\buildConfig\debug\
+* build\generated\source\buildConfig\debug\org\
+* build\generated\source\buildConfig\debug\org\puredata\
+* build\generated\source\buildConfig\debug\org\puredata\android\
+* build\generated\source\buildConfig\debug\org\puredata\android\service\
+* build\generated\source\buildConfig\debug\org\puredata\android\service\BuildConfig.java
+* build\generated\source\r\
+* build\generated\source\r\androidTest\
+* build\generated\source\r\androidTest\debug\
+* build\generated\source\r\androidTest\debug\org\
+* build\generated\source\r\androidTest\debug\org\puredata\
+* build\generated\source\r\androidTest\debug\org\puredata\android\
+* build\generated\source\r\androidTest\debug\org\puredata\android\service\
+* build\generated\source\r\androidTest\debug\org\puredata\android\service\R.java
+* build\generated\source\r\androidTest\debug\org\puredata\android\service\test\
+* build\generated\source\r\androidTest\debug\org\puredata\android\service\test\R.java
+* build\generated\source\r\debug\
+* build\generated\source\r\debug\org\
+* build\generated\source\r\debug\org\puredata\
+* build\generated\source\r\debug\org\puredata\android\
+* build\generated\source\r\debug\org\puredata\android\service\
+* build\generated\source\r\debug\org\puredata\android\service\R.java
+* build\intermediates\
+* build\intermediates\blame\
+* build\intermediates\blame\res\
+* build\intermediates\blame\res\androidTest\
+* build\intermediates\blame\res\androidTest\debug\
+* build\intermediates\blame\res\androidTest\debug\multi\
+* build\intermediates\blame\res\androidTest\debug\multi\values.json
+* build\intermediates\blame\res\androidTest\debug\single\
+* build\intermediates\blame\res\androidTest\debug\single\drawable.json
+* build\intermediates\blame\res\androidTest\debug\single\raw.json
+* build\intermediates\blame\res\androidTest\debug\single\xml.json
+* build\intermediates\bundles\
+* build\intermediates\bundles\debug\
+* build\intermediates\bundles\debug\AndroidManifest.xml
+* build\intermediates\bundles\debug\R.txt
+* build\intermediates\bundles\debug\res\
+* build\intermediates\bundles\debug\res\drawable\
+* build\intermediates\bundles\debug\res\drawable\icon.png
+* build\intermediates\bundles\debug\res\raw\
+* build\intermediates\bundles\debug\res\raw\extra_abs.zip
+* build\intermediates\bundles\debug\res\raw\silence.wav
+* build\intermediates\bundles\debug\res\values\
+* build\intermediates\bundles\debug\res\values\values.xml
+* build\intermediates\bundles\debug\res\xml\
+* build\intermediates\bundles\debug\res\xml\preferences.xml
+* build\intermediates\incremental\
+* build\intermediates\incremental\compileDebugAidl\
+* build\intermediates\incremental\compileDebugAidl\dependency.store
+* build\intermediates\incremental\compileDebugAndroidTestAidl\
+* build\intermediates\incremental\compileDebugAndroidTestAidl\dependency.store
+* build\intermediates\incremental\mergeDebugAndroidTestResources\
+* build\intermediates\incremental\mergeDebugAndroidTestResources\compile-file-map.properties
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merged.dir\
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merged.dir\values\
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merged.dir\values\values.xml
+* build\intermediates\incremental\mergeDebugAndroidTestResources\merger.xml
+* build\intermediates\incremental\mergeDebugAssets\
+* build\intermediates\incremental\mergeDebugAssets\merger.xml
+* build\intermediates\incremental\mergeDebugShaders\
+* build\intermediates\incremental\mergeDebugShaders\merger.xml
+* build\intermediates\incremental\packageDebugResources\
+* build\intermediates\incremental\packageDebugResources\compile-file-map.properties
+* build\intermediates\incremental\packageDebugResources\merged.dir\
+* build\intermediates\incremental\packageDebugResources\merged.dir\values\
+* build\intermediates\incremental\packageDebugResources\merged.dir\values\values.xml
+* build\intermediates\incremental\packageDebugResources\merger.xml
+* build\intermediates\manifest\
+* build\intermediates\manifest\androidTest\
+* build\intermediates\manifest\androidTest\debug\
+* build\intermediates\manifest\androidTest\debug\AndroidManifest.xml
+* build\intermediates\manifests\
+* build\intermediates\manifests\aapt\
+* build\intermediates\manifests\aapt\debug\
+* build\intermediates\manifests\aapt\debug\AndroidManifest.xml
+* build\intermediates\res\
+* build\intermediates\res\merged\
+* build\intermediates\res\merged\androidTest\
+* build\intermediates\res\merged\androidTest\debug\
+* build\intermediates\res\merged\androidTest\debug\drawable\
+* build\intermediates\res\merged\androidTest\debug\drawable\icon.png
+* build\intermediates\res\merged\androidTest\debug\raw\
+* build\intermediates\res\merged\androidTest\debug\raw\extra_abs.zip
+* build\intermediates\res\merged\androidTest\debug\raw\silence.wav
+* build\intermediates\res\merged\androidTest\debug\values\
+* build\intermediates\res\merged\androidTest\debug\values\values.xml
+* build\intermediates\res\merged\androidTest\debug\xml\
+* build\intermediates\res\merged\androidTest\debug\xml\preferences.xml
+* build\intermediates\res\resources-debug-androidTest.ap_
+* build\intermediates\symbols\
+* build\intermediates\symbols\androidTest\
+* build\intermediates\symbols\androidTest\debug\
+* build\intermediates\symbols\androidTest\debug\R.txt
+* build\outputs\
+* build\outputs\aar\
+* build\outputs\aar\PdCore-debug.aar
+* custom_rules.xml
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+From PdPlayer:
+* .gitignore
+* LICENSE.txt
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\noisepages\
+* doc\com\noisepages\nettoyeur\
+* doc\com\noisepages\nettoyeur\midi\
+* doc\com\noisepages\nettoyeur\midi\R.drawable.html
+* doc\com\noisepages\nettoyeur\midi\R.html
+* doc\com\noisepages\nettoyeur\midi\R.id.html
+* doc\com\noisepages\nettoyeur\midi\R.layout.html
+* doc\com\noisepages\nettoyeur\midi\R.string.html
+* doc\com\noisepages\nettoyeur\midi\class-use\
+* doc\com\noisepages\nettoyeur\midi\class-use\R.drawable.html
+* doc\com\noisepages\nettoyeur\midi\class-use\R.html
+* doc\com\noisepages\nettoyeur\midi\class-use\R.id.html
+* doc\com\noisepages\nettoyeur\midi\class-use\R.layout.html
+* doc\com\noisepages\nettoyeur\midi\class-use\R.string.html
+* doc\com\noisepages\nettoyeur\midi\package-frame.html
+* doc\com\noisepages\nettoyeur\midi\package-summary.html
+* doc\com\noisepages\nettoyeur\midi\package-tree.html
+* doc\com\noisepages\nettoyeur\midi\package-use.html
+* doc\com\wickham\
+* doc\com\wickham\android\
+* doc\com\wickham\android\pdplayer\
+* doc\com\wickham\android\pdplayer\BuildConfig.html
+* doc\com\wickham\android\pdplayer\CustomDialog.html
+* doc\com\wickham\android\pdplayer\PdPlayer.html
+* doc\com\wickham\android\pdplayer\R.array.html
+* doc\com\wickham\android\pdplayer\R.attr.html
+* doc\com\wickham\android\pdplayer\R.drawable.html
+* doc\com\wickham\android\pdplayer\R.html
+* doc\com\wickham\android\pdplayer\R.id.html
+* doc\com\wickham\android\pdplayer\R.layout.html
+* doc\com\wickham\android\pdplayer\R.menu.html
+* doc\com\wickham\android\pdplayer\R.raw.html
+* doc\com\wickham\android\pdplayer\R.string.html
+* doc\com\wickham\android\pdplayer\R.style.html
+* doc\com\wickham\android\pdplayer\R.xml.html
+* doc\com\wickham\android\pdplayer\class-use\
+* doc\com\wickham\android\pdplayer\class-use\BuildConfig.html
+* doc\com\wickham\android\pdplayer\class-use\CustomDialog.html
+* doc\com\wickham\android\pdplayer\class-use\PdPlayer.html
+* doc\com\wickham\android\pdplayer\class-use\R.array.html
+* doc\com\wickham\android\pdplayer\class-use\R.attr.html
+* doc\com\wickham\android\pdplayer\class-use\R.drawable.html
+* doc\com\wickham\android\pdplayer\class-use\R.html
+* doc\com\wickham\android\pdplayer\class-use\R.id.html
+* doc\com\wickham\android\pdplayer\class-use\R.layout.html
+* doc\com\wickham\android\pdplayer\class-use\R.menu.html
+* doc\com\wickham\android\pdplayer\class-use\R.raw.html
+* doc\com\wickham\android\pdplayer\class-use\R.string.html
+* doc\com\wickham\android\pdplayer\class-use\R.style.html
+* doc\com\wickham\android\pdplayer\class-use\R.xml.html
+* doc\com\wickham\android\pdplayer\package-frame.html
+* doc\com\wickham\android\pdplayer\package-summary.html
+* doc\com\wickham\android\pdplayer\package-tree.html
+* doc\com\wickham\android\pdplayer\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-2.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\org\
+* doc\org\puredata\
+* doc\org\puredata\android\
+* doc\org\puredata\android\service\
+* doc\org\puredata\android\service\R.array.html
+* doc\org\puredata\android\service\R.drawable.html
+* doc\org\puredata\android\service\R.html
+* doc\org\puredata\android\service\R.id.html
+* doc\org\puredata\android\service\R.layout.html
+* doc\org\puredata\android\service\R.raw.html
+* doc\org\puredata\android\service\R.string.html
+* doc\org\puredata\android\service\R.style.html
+* doc\org\puredata\android\service\R.xml.html
+* doc\org\puredata\android\service\class-use\
+* doc\org\puredata\android\service\class-use\R.array.html
+* doc\org\puredata\android\service\class-use\R.drawable.html
+* doc\org\puredata\android\service\class-use\R.html
+* doc\org\puredata\android\service\class-use\R.id.html
+* doc\org\puredata\android\service\class-use\R.layout.html
+* doc\org\puredata\android\service\class-use\R.raw.html
+* doc\org\puredata\android\service\class-use\R.string.html
+* doc\org\puredata\android\service\class-use\R.style.html
+* doc\org\puredata\android\service\class-use\R.xml.html
+* doc\org\puredata\android\service\package-frame.html
+* doc\org\puredata\android\service\package-summary.html
+* doc\org\puredata\android\service\package-tree.html
+* doc\org\puredata\android\service\package-use.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\inherit.gif
+* doc\stylesheet.css
+* ic_launcher-web.png
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AndroidMidi:
+* AndroidManifest.xml => androidMidi\src\main\AndroidManifest.xml
+* res\ => androidMidi\src\main\res\
+* src\ => androidMidi\src\main\java\
+In PdCore:
+* AndroidManifest.xml => pdCore\src\main\AndroidManifest.xml
+* assets\ => pdCore\src\main\assets
+* jni\ => pdCore\src\main\jni\
+* jni\libpd\java\ => pdCore\src\main\java\
+* libs\armeabi-v7a\libbonk_tilde.so => pdCore\src\main\jniLibs\armeabi-v7a\libbonk_tilde.so
+* libs\armeabi-v7a\libchoice.so => pdCore\src\main\jniLibs\armeabi-v7a\libchoice.so
+* libs\armeabi-v7a\libexpr.so => pdCore\src\main\jniLibs\armeabi-v7a\libexpr.so
+* libs\armeabi-v7a\libexpr_tilde.so => pdCore\src\main\jniLibs\armeabi-v7a\libexpr_tilde.so
+* libs\armeabi-v7a\libfexpr_tilde.so => pdCore\src\main\jniLibs\armeabi-v7a\libfexpr_tilde.so
+* libs\armeabi-v7a\libfiddle_tilde.so => pdCore\src\main\jniLibs\armeabi-v7a\libfiddle_tilde.so
+* libs\armeabi-v7a\libloop_tilde.so => pdCore\src\main\jniLibs\armeabi-v7a\libloop_tilde.so
+* libs\armeabi-v7a\liblrshift_tilde.so => pdCore\src\main\jniLibs\armeabi-v7a\liblrshift_tilde.so
+* libs\armeabi-v7a\libpd.so => pdCore\src\main\jniLibs\armeabi-v7a\libpd.so
+* libs\armeabi-v7a\libpdnative.so => pdCore\src\main\jniLibs\armeabi-v7a\libpdnative.so
+* libs\armeabi-v7a\libpdnativeopensl.so => pdCore\src\main\jniLibs\armeabi-v7a\libpdnativeopensl.so
+* libs\armeabi-v7a\libpique.so => pdCore\src\main\jniLibs\armeabi-v7a\libpique.so
+* libs\armeabi-v7a\libsigmund_tilde.so => pdCore\src\main\jniLibs\armeabi-v7a\libsigmund_tilde.so
+* libs\armeabi\libbonk_tilde.so => pdCore\src\main\jniLibs\armeabi\libbonk_tilde.so
+* libs\armeabi\libchoice.so => pdCore\src\main\jniLibs\armeabi\libchoice.so
+* libs\armeabi\libexpr.so => pdCore\src\main\jniLibs\armeabi\libexpr.so
+* libs\armeabi\libexpr_tilde.so => pdCore\src\main\jniLibs\armeabi\libexpr_tilde.so
+* libs\armeabi\libfexpr_tilde.so => pdCore\src\main\jniLibs\armeabi\libfexpr_tilde.so
+* libs\armeabi\libfiddle_tilde.so => pdCore\src\main\jniLibs\armeabi\libfiddle_tilde.so
+* libs\armeabi\libloop_tilde.so => pdCore\src\main\jniLibs\armeabi\libloop_tilde.so
+* libs\armeabi\liblrshift_tilde.so => pdCore\src\main\jniLibs\armeabi\liblrshift_tilde.so
+* libs\armeabi\libpd.so => pdCore\src\main\jniLibs\armeabi\libpd.so
+* libs\armeabi\libpdnative.so => pdCore\src\main\jniLibs\armeabi\libpdnative.so
+* libs\armeabi\libpdnativeopensl.so => pdCore\src\main\jniLibs\armeabi\libpdnativeopensl.so
+* libs\armeabi\libpique.so => pdCore\src\main\jniLibs\armeabi\libpique.so
+* libs\armeabi\libsigmund_tilde.so => pdCore\src\main\jniLibs\armeabi\libsigmund_tilde.so
+* libs\x86\libbonk_tilde.so => pdCore\src\main\jniLibs\x86\libbonk_tilde.so
+* libs\x86\libchoice.so => pdCore\src\main\jniLibs\x86\libchoice.so
+* libs\x86\libexpr.so => pdCore\src\main\jniLibs\x86\libexpr.so
+* libs\x86\libexpr_tilde.so => pdCore\src\main\jniLibs\x86\libexpr_tilde.so
+* libs\x86\libfexpr_tilde.so => pdCore\src\main\jniLibs\x86\libfexpr_tilde.so
+* libs\x86\libfiddle_tilde.so => pdCore\src\main\jniLibs\x86\libfiddle_tilde.so
+* libs\x86\libloop_tilde.so => pdCore\src\main\jniLibs\x86\libloop_tilde.so
+* libs\x86\liblrshift_tilde.so => pdCore\src\main\jniLibs\x86\liblrshift_tilde.so
+* libs\x86\libpd.so => pdCore\src\main\jniLibs\x86\libpd.so
+* libs\x86\libpdnative.so => pdCore\src\main\jniLibs\x86\libpdnative.so
+* libs\x86\libpdnativeopensl.so => pdCore\src\main\jniLibs\x86\libpdnativeopensl.so
+* libs\x86\libpique.so => pdCore\src\main\jniLibs\x86\libpique.so
+* libs\x86\libsigmund_tilde.so => pdCore\src\main\jniLibs\x86\libsigmund_tilde.so
+* res\ => pdCore\src\main\res\
+* src\ => pdCore\src\main\java\
+In PdPlayer:
+* AndroidManifest.xml => pdPlayer\src\main\AndroidManifest.xml
+* res\ => pdPlayer\src\main\res\
+* src\ => pdPlayer\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
